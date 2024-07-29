@@ -56,6 +56,7 @@
     "mime-types": "^2.1.35",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
+    "node-cache": "^5.1.2",
     "nodemon": "^3.1.4",
     "object-assign": "^4.1.1",
     "object-inspect": "^1.13.2",
@@ -103,12 +104,12 @@
     "yn": "^3.1.1"
   },
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "tsc",
-  "watch": "tsc -w",
-  "start": "node dist/index.js",
-  "dev": "nodemon src/index.ts"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
